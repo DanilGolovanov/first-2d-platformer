@@ -1972,12 +1972,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 12491852}
+      objectReference: {fileID: 8484868277123632306}
     - target: {fileID: 6755882189569912479, guid: 34b20b43e36ec0f40aa41127b9ed1d85,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 12491852}
+      objectReference: {fileID: 8484868277123632306}
     - target: {fileID: 6755882189616592568, guid: 34b20b43e36ec0f40aa41127b9ed1d85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2092,17 +2092,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 12491852}
+      objectReference: {fileID: 8484868277123632306}
     - target: {fileID: 6755882190367265823, guid: 34b20b43e36ec0f40aa41127b9ed1d85,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 12491852}
+      objectReference: {fileID: 8484868277123632306}
     - target: {fileID: 6755882190373624622, guid: 34b20b43e36ec0f40aa41127b9ed1d85,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 12491852}
+      objectReference: {fileID: 8484868277123632306}
     - target: {fileID: 6755882190373624622, guid: 34b20b43e36ec0f40aa41127b9ed1d85,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2112,7 +2112,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 12491852}
+      objectReference: {fileID: 8484868277123632306}
     - target: {fileID: 6755882190784792935, guid: 34b20b43e36ec0f40aa41127b9ed1d85,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2127,6 +2127,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6121135357213479495, guid: 69026e1d36a1e014d951a059b440e349,
+        type: 3}
+      propertyPath: resolusion
+      value: 
+      objectReference: {fileID: 971595185}
+    - target: {fileID: 6121135357213479495, guid: 69026e1d36a1e014d951a059b440e349,
+        type: 3}
+      propertyPath: qualityDropdown
+      value: 
+      objectReference: {fileID: 2109086618}
+    - target: {fileID: 6121135357213479495, guid: 69026e1d36a1e014d951a059b440e349,
+        type: 3}
+      propertyPath: fullscreenToggle
+      value: 
+      objectReference: {fileID: 1231038257}
+    - target: {fileID: 6121135357213479495, guid: 69026e1d36a1e014d951a059b440e349,
+        type: 3}
+      propertyPath: musicSlider
+      value: 
+      objectReference: {fileID: 601502693}
+    - target: {fileID: 6121135357213479495, guid: 69026e1d36a1e014d951a059b440e349,
+        type: 3}
+      propertyPath: SFXSlider
+      value: 
+      objectReference: {fileID: 203042853}
     - target: {fileID: 8484868277113311482, guid: 69026e1d36a1e014d951a059b440e349,
         type: 3}
       propertyPath: m_Name
@@ -2189,21 +2214,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8484868277113311485, guid: 69026e1d36a1e014d951a059b440e349,
         type: 3}
-      propertyPath: resolusion
-      value: 
-      objectReference: {fileID: 971595185}
-    - target: {fileID: 8484868277113311485, guid: 69026e1d36a1e014d951a059b440e349,
-        type: 3}
-      propertyPath: qualityDropdown
-      value: 
-      objectReference: {fileID: 2109086618}
-    - target: {fileID: 8484868277113311485, guid: 69026e1d36a1e014d951a059b440e349,
-        type: 3}
-      propertyPath: fullscreenToggle
-      value: 
-      objectReference: {fileID: 1231038257}
-    - target: {fileID: 8484868277113311485, guid: 69026e1d36a1e014d951a059b440e349,
-        type: 3}
       propertyPath: progressBar
       value: 
       objectReference: {fileID: 1887304171}
@@ -2212,15 +2222,17 @@ PrefabInstance:
       propertyPath: progressBarText
       value: 
       objectReference: {fileID: 553767232}
-    - target: {fileID: 8484868277113311485, guid: 69026e1d36a1e014d951a059b440e349,
-        type: 3}
-      propertyPath: musicSlider
-      value: 
-      objectReference: {fileID: 601502693}
-    - target: {fileID: 8484868277113311485, guid: 69026e1d36a1e014d951a059b440e349,
-        type: 3}
-      propertyPath: SFXSlider
-      value: 
-      objectReference: {fileID: 203042853}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69026e1d36a1e014d951a059b440e349, type: 3}
+--- !u!114 &8484868277123632306 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6121135357213479495, guid: 69026e1d36a1e014d951a059b440e349,
+    type: 3}
+  m_PrefabInstance: {fileID: 8484868277123632305}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed36957865a12847a72734d3764cdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

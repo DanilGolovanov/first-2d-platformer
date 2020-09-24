@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8484868277113311484}
   - component: {fileID: 8484868277113311485}
+  - component: {fileID: 6121135357213479495}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -44,11 +45,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LoadScene: GameScene
+  progressBar: {fileID: 0}
+  progressBarText: {fileID: 0}
+--- !u!114 &6121135357213479495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8484868277113311482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed36957865a12847a72734d3764cdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   resolusion: {fileID: 0}
   qualityDropdown: {fileID: 0}
   fullscreenToggle: {fileID: 0}
-  progressBar: {fileID: 0}
-  progressBarText: {fileID: 0}
   musicSlider: {fileID: 0}
   SFXSlider: {fileID: 0}
   mixer: {fileID: 24100000, guid: 5116b03a67cf825438e57a3538903eef, type: 2}
