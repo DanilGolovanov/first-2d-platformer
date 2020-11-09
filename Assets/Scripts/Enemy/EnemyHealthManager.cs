@@ -10,11 +10,6 @@ public class EnemyHealthManager : MonoBehaviour
 
     public Key finalKey;
 
-    private void Start()
-    {
-        finalKey = FindObjectOfType<Key>();
-    }
-
     // Update is called once per frame
     void Update()
     {
