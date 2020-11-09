@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Checkpoint
+  - Enemy
+  - EnemyDeathParticle
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -14,11 +18,11 @@ TagManager:
   - 
   - 
   - Ground
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Checkpoints
+  - Player
+  - Shuriken
+  - Enemy
+  - Portal
   - 
   - 
   - 
